@@ -13,7 +13,7 @@ function NavBar() {
         <Image alt="icono" src={icono} width={28} />
       </a>
       <div
-        className={`bg-white dark:bg-slate-800 p-7 h-[380px] w-[320px] md:flex flex-col items-start justify-around 
+        className={`bg-slate-300 dark:bg-slate-800 p-7 h-[380px] w-[320px] md:flex flex-col items-start justify-around 
       rounded-lg text-dark dark:text-white md:flex-row md:w-full 
       md:py-0 md:h-[50px] md:bg-inherit md:dark:bg-primary  ${
         menuButton ? "" : "hidden"

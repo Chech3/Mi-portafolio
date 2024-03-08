@@ -30,6 +30,49 @@ export default function Home() {
           <div className="my-10 w-full ">
             <div className="w-[300px] h-[320px] m-auto bg-[url('../../public/img/profile.png')] lg:bg-[url('../../public/img/profile.png')] bg-cover rounded-lg lg:w-[100%] lg:h-[100%] lg:bg-center lg:bg-no-repeat lg:bg-[length:450px_576px]"></div>
           </div>
+          {/* Experiencia Laboral */}
+        </section>
+        <h2 className="text-3xl text-slate-700 dark:text-white font bold tracking-widest w[85%] m-auto text-center pt-8 ">
+          Experiencia Laboral
+        </h2>
+        <section className="my-12 flex flex-col w-[84%] m-auto lg:flex-row lg-[87%] lg:my-28">
+          <div className="flex justify-between lg:flex-col lg:w-[20%]">
+            <button
+              type="button"
+              className="border-b-2 hover:dark:bg-slate-800 w-full px-4 py-1 hover:bg-slate-300 focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left border-sky-500 bg-white dark:bg-slate-700"
+            >
+              VIT
+            </button>
+            <button className="border-b-2 hover:dark:bg-slate-700 w-full px-4 py-1 hover:bg-white focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left">
+              Zoologico
+            </button>
+            <button className="border-b-2 hover:dark:bg-slate-700 w-full px-4 py-1 hover:bg-white focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left">
+              Trabajo inventado
+            </button>
+          </div>
+          <article>
+            <h3>
+              Desarrollador <span>Venezolana de Industria Tecnológica</span>{" "}
+            </h3>
+            <h4>Agosto 2023 - Presente</h4>
+            <ul>
+              <li>
+                <span></span>
+                <p>
+                  He trabajado con HTML, CSS y PostgreSQL. Además con lenguajes
+                  de programación como lo son Javascript, PHP, C++ y Python
+                </p>
+              </li>
+
+              <li>
+                <span></span>
+                <p>
+                  Experiencia en frameworks como Laravel, FastApi y Next.
+                  También en el uso librerias como React, Bootstrap y Tailwind{" "}
+                </p>
+              </li>
+            </ul>
+          </article>
         </section>
       </main>
     </>
