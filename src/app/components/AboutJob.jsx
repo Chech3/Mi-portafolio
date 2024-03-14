@@ -31,9 +31,9 @@ function AboutJob() {
           type="button"
           className={`border-b-2 hover:dark:bg-slate-700 w-full px-4 py-1 hover:bg-white ${
             showVit
-              ? "focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 dark:bg-slate-700"
-              : "border-sky-100 focus:border-sky-100 bg-sky-100 dark:bg-primary "
-          } lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left border-sky-500 bg-white`}
+              ? "focus:bg-white bg-white focus:border-sky-500 focus:dark:bg-slate-700 dark:bg-slate-700"
+              : "border-gray-200  focus:border-sky-100 bg-sky-100 dark:bg-primary  "
+          } lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left border-sky-500`}
         >
           Venezolana de Industria Tecnológica
         </button>
@@ -94,7 +94,7 @@ function AboutJob() {
             <li className="flex items-center py-2">
               <span className="pr-2 text-sky-500 font-black">&#9655;</span>
               <p className="text-stone-900 dark:text-cyan-50 font-normal px-5">
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
               </p>
             </li>
             <li className="flex items-center py-2">

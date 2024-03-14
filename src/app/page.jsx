@@ -1,4 +1,5 @@
 import AboutJob from "./components/AboutJob";
+import Project from "./components/Project";
 import SocialMedia from "./components/SocialMedia";
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
         <section className="my-0 flex flex-col lg:flex-row lg:h-[600px]">
           <div className="p-10 lg:w-[80%] lg:h-[500px] lg:self-center">
             <h1 className="text-sky-600 dark:text-sky-300 text-2xl font-bold tracking-widest leading-10">
-              Hola soy{" "}
+              Hola soy
             </h1>
             <p className="text-3xl py-2 font-bold text-slate-600 dark:text-slate-300">
               José Angel Garces Higuera
@@ -33,10 +34,16 @@ export default function Home() {
           </div>
           {/* Experiencia Laboral */}
         </section>
-        <h2 className="text-3xl text-slate-700 dark:text-white font bold tracking-widest w[85%] m-auto text-center pt-8 ">
+        <h2 className="text-3xl text-slate-700 dark:text-white font-bold tracking-widest w[85%] m-auto text-center pt-8 md:text-center ">
           Experiencia Laboral
         </h2>
         <AboutJob />
+
+        <div>
+            <Project/>
+        </div>
+
+
         
       </main>
     </>
