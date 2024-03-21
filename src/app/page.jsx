@@ -39,12 +39,14 @@ export default function Home() {
         </h2>
         <AboutJob />
 
-        <div>
-            <Project/>
-        </div>
-
-
-        
+        <h3 className="text-3xl font-bold text-slate-700 my-5 px-12  dark:text-white m-auto text-center tracking-widest ">
+          Algunos Proyectos
+        </h3>
+        <section className="my-12 flex flex-col items-center justify-center w-[90%] m-auto lg:flex-row">
+          <Project texto="Proyecto Realizado" />
+          <Project texto="Proyecto Realizado" />
+          <Project texto="Proyecto Realizado" />
+        </section>
       </main>
     </>
   );
